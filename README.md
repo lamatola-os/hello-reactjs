@@ -14,3 +14,8 @@ bundle.js  4.21 KiB    main  [emitted]  main
 
 - babel - make JSX browser understandable
 
+run in one shot:
+
+```
+node_modules/.bin/webpack -d; npm start
+```
