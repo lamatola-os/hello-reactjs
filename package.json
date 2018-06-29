@@ -2,7 +2,8 @@
   "name": "hello-reactjs",
   "version": "1.0.0",
   "description": "hello reactjs",
-  "main": "index.js",
+  "main": "server.js",
+  "start": "node_modules/.bin/webpack -d; npm start",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
