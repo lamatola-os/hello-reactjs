@@ -1,0 +1,14 @@
+{
+  "name": "hello-reactjs",
+  "version": "1.0.0",
+  "description": "hello reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prayagupd",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.13.0"
+  }
+}
