@@ -12,4 +12,5 @@ bundle.js  4.21 KiB    main  [emitted]  main
 [./src/client/app/index.jsx] 23 bytes {main} [built]
 ```
 
+- babel - make JSX browser understandable
 
