@@ -1,10 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-class App extends React.Component {
+class Introgen extends React.Component {
   render () {
-    return <p> Welcome to introgen (brother of N2)!</p>;
+    return <p> Welcome to Introgen v1 (brother of N2)!</p>;
   }
 }
 
-render(<App/>, document.getElementById('app'));
+render(<Introgen/>, document.getElementById('introgen'));
