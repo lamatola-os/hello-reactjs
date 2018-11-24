@@ -28,3 +28,8 @@ node_modules/.bin/webpack -d; npm start
 ```
 
 ![](ui.png)
+
+resources
+---------
+
+https://reactjs.org/docs/hello-world.html
