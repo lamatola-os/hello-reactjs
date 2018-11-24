@@ -1,4 +1,11 @@
 
+run the app
+-----------
+
+```
+npm install
+```
+
 - webpack - a module bundler which takes modules with dependencies and generates static assets
 
 ```
@@ -19,3 +26,5 @@ run in one shot:
 ```
 node_modules/.bin/webpack -d; npm start
 ```
+
+![](ui.png)
