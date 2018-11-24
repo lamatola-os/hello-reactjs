@@ -33,3 +33,20 @@ resources
 ---------
 
 https://reactjs.org/docs/hello-world.html
+
+tooling
+--------
+
+https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bframeworks/react#install
+
+add react to `~/.spacemacs`, 
+
+```lisp
+   dotspacemacs-configuration-layers                                                                
+   '(                                                                                               
+     markdown                                                                                       
+     clojure                                                                                        
+     javascript                                                                                     
+     react                                                                                          
+     html
+```
