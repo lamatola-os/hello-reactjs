@@ -6,7 +6,11 @@ run the app
 npm install
 ```
 
-- webpack - a module bundler which takes modules with dependencies and generates static assets
+[webpack](https://webpack.js.org/concepts/) 
+-----------
+
+a module bundler which takes modules with dependencies and generates static assets
+based on sources defined in `webpack.config.js`, in this example sources are `.JSX`
 
 ```
 $ node_modules/.bin/webpack -d
@@ -19,7 +23,10 @@ bundle.js  4.21 KiB    main  [emitted]  main
 [./src/client/app/index.jsx] 23 bytes {main} [built]
 ```
 
-- babel - make JSX browser understandable
+[babel compiler](https://babeljs.io/docs/en/)
+----------
+
+make JSX browser understandable
 
 run in one shot:
 
