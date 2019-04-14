@@ -47,15 +47,17 @@ class ChatComponent extends React.Component {
         message: this.state.message1,
         reply: 'hi, how can I help you?',
     });
-    fetch("localhost:3000/chat/init")
+    fetch("http://localhost:3000/chat/init")
         .then(res => res.json())
         .then(
           (result) => {
+            console.log(result);
             this.setState({
               reply: result.message
             });
           },
           (error) => {
+            console.log(error);
             this.setState({
               reply: 'something went wrong'
             });
