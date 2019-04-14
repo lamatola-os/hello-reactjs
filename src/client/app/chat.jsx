@@ -47,6 +47,20 @@ class ChatComponent extends React.Component {
         message: this.state.message1,
         reply: 'hi, how can I help you?',
     });
+    fetch("localhost:3000/chat/init")
+        .then(res => res.json())
+        .then(
+          (result) => {
+            this.setState({
+              reply: result.message
+            });
+          },
+          (error) => {
+            this.setState({
+              reply: 'something went wrong'
+            });
+          }
+        )
     event.preventDefault();
   }
 
