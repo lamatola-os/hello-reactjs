@@ -45,7 +45,7 @@ class ChatComponent extends React.Component {
     console.log(this.state.message1 + ': ' + this.state.message1);
     this.setState({
         message: this.state.message1,
-        reply: 'test',
+        reply: 'hi, how can I help you?',
     });
     event.preventDefault();
   }

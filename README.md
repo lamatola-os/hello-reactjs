@@ -45,7 +45,7 @@ run in one shot:
 node_modules/.bin/webpack -d; npm start
 ```
 
-![](ui.png)
+![](chat.png)
 
 resources
 ---------
