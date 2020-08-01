@@ -3,10 +3,11 @@ var path = require('path');
 var glob = require('glob');
 
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
-var APP_DIR = path.resolve(__dirname, 'src/client/app');
+var APP_DIR = path.resolve(__dirname, 'src/client/components');
 
 var config = {
   entry: {
+	  //FIXME add multiple react components
 	  index: APP_DIR + '/index.jsx'
   },
   output: {

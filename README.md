@@ -49,6 +49,17 @@ node_modules/.bin/webpack -d; npm start
 
 ![](chat.png)
 
+TODO
+----
+
+- update components to compile
+
+```
+  entry: {                                                                                                                        
+          index: APP_DIR + '/index.jsx'                                                                
+  }, 
+```
+
 resources
 ---------
 
