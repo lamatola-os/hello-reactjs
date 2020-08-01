@@ -8,7 +8,7 @@ depends on https://github.com/duwamish-os/chat-server
 npm install
 ```
 
-[webpack](https://webpack.js.org/concepts/) 
+[webpack bundler](https://webpack.js.org/concepts/) 
 -----------
 
 a module bundler which takes modules with dependencies and generates static assets
@@ -25,7 +25,7 @@ bundle.js  4.21 KiB    main  [emitted]  main
 [./src/client/app/index.jsx] 23 bytes {main} [built]
 ```
 
-[babel compiler](https://babeljs.io/docs/en/)
+[babel js compiler](https://babeljs.io/docs/en/)
 ----------
 
 make JSX browser understandable
