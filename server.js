@@ -14,7 +14,7 @@ app.get( '/chat', ( req, res ) => {
     res.sendFile( path.join( __dirname, 'src/client', 'chat.html' ));
   });
 
-greeting = () => {
+initialise = () => {
     let data = axios.get('http://localhost:8080/chat/init', { headers:
        {
          'x-correlation-id': '12',
@@ -34,8 +34,12 @@ greeting = () => {
       return data;
 };
 
+init = () => {
+	return Promise.resolve({correlationId: 1, message: 'welcome'})
+}
+
 app.get( '/chat/init', ( req, res ) => {
-    greeting().then(json => {
+    init().then(json => {
       console.log('response2: ' + json.message);
       res.send({'correlationId': json.correlationId, 'message': json.message});
     });

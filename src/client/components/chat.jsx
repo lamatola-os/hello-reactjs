@@ -47,7 +47,7 @@ class ChatComponent extends React.Component {
         message: this.state.message1,
         reply: 'hi, how can I help you?',
     });
-    fetch("http://localhost:3000/chat/init")
+    fetch("/chat/init")
         .then(res => res.json())
         .then(
           (result) => {
@@ -91,4 +91,4 @@ class ChatComponent extends React.Component {
   }
 }
 
-render(<ChatComponent/>, document.getElementById('chat'));
+render(<ChatComponent/>, document.getElementById('chat-container'));

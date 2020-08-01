@@ -8,7 +8,9 @@ var APP_DIR = path.resolve(__dirname, 'src/client/components');
 var config = {
   entry: {
 	  //FIXME add multiple react components
-	  index: APP_DIR + '/index.jsx'
+	  //index: APP_DIR + '/index.jsx'
+	  //,
+	  chat: APP_DIR + '/chat.jsx'
   },
   output: {
     path: BUILD_DIR,
