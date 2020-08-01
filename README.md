@@ -5,6 +5,7 @@ run the app
 depends on https://github.com/duwamish-os/chat-server
 
 ```
+rm -rf node_modules/ && rm package-lock.json 
 npm install
 ```
 
