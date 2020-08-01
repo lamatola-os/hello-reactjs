@@ -1,13 +1,13 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-class Introgen extends React.Component {
+class IntrogenComponent extends React.Component {
   render () {
     return <p> Welcome to Introgen v1 (brother of N2)!</p>;
   }
 }
 
-class Thoughts extends React.Component {
+class ThoughtsComponent extends React.Component {
 
   constructor(props) {
     super(props);
@@ -51,4 +51,4 @@ class Thoughts extends React.Component {
   }
 }
 
-render(<Thoughts/>, document.getElementById('introgen'));
+render(<ThoughtsComponent/>, document.getElementById('introgen-container'));
