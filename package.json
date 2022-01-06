@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "reactjs frontend microservice",
   "main": "server.js",
-  "start": "node_modules/.bin/webpack -d; npm start",
+  "start": "node_modules/.bin/webpack  --devtool eval-cheap-module-source-map --output-pathinfo; npm start",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "prayagupd",
+  "author": "prayagupa",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
