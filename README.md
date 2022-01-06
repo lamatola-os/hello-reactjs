@@ -4,7 +4,7 @@ run the app
 
 depends on https://github.com/duwamish-os/chat-server
 
-```
+```bash
 rm -rf node_modules/ && rm package-lock.json 
 npm install
 ```
@@ -16,7 +16,7 @@ a module bundler which takes modules with dependencies and generates static asse
 based on sources defined in `webpack.config.js`, in this example sources are `.JSX`
 
 ```bash
-$ node_modules/.bin/webpack -d
+$ node_modules/.bin/webpack --debug --devtool eval-cheap-module-source-map --output-pathinfo
 Hash: 33c1b5f6d934201ea788
 Version: webpack 4.13.0
 Time: 76ms

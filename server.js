@@ -23,7 +23,7 @@ initialise = () => {
        }
     })
       .then(response => {
-        console.log('response1: ' + response.data.message);
+        console.log('chat response1: ' + response.data.message);
         return response.data
       })
       .catch(error => {
@@ -40,7 +40,7 @@ init = () => {
 
 app.get( '/chat/init', ( req, res ) => {
     init().then(json => {
-      console.log('response2: ' + json.message);
+      console.log('chat response2: ' + json.message);
       res.send({'correlationId': json.correlationId, 'message': json.message});
     });
 });
